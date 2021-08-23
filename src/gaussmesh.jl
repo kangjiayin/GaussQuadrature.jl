@@ -1,6 +1,5 @@
 # This flie is made for getting nodes and weight of gauss quadrature
 
-using FastGaussQuadrature
 
 
 

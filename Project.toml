@@ -1,0 +1,9 @@
+name = "gaussquad"
+uuid = "1a418b7b-bd89-4d70-8204-3dbb55175bc6"
+authors = ["kjy <kangjiayin@mail.nankai.edu.cn>"]
+julia = "1.6.2"
+version = "0.1.0"
+
+[deps]
+FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
