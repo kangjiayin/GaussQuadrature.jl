@@ -1,7 +1,6 @@
-name = "gaussquad"
-uuid = "1a418b7b-bd89-4d70-8204-3dbb55175bc6"
-authors = ["kjy <kangjiayin@mail.nankai.edu.cn>"]
-julia = "1.6.2"
+name = "Gaussquad"
+uuid = "ff7d88ef-8a7b-4be5-9ac4-5da6dffbeadd"
+authors = ["Your Name <you@example.com>"]
 version = "0.1.0"
 
 [deps]

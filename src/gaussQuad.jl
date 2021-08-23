@@ -1,5 +1,5 @@
 module gaussquad
-using DataStructures, LinearAlgebra
+using FastGaussQuadrature, LinearAlgebra
 
 export gausslegendreint
 # export gausschebyshevint
