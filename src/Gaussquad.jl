@@ -1,4 +1,4 @@
-module gaussquad
+module Gaussquad
 using FastGaussQuadrature, LinearAlgebra
 
 export gausslegendreint
