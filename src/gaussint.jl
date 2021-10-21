@@ -16,7 +16,7 @@ function gausslegendreint64(f)
     for i in eachindex(x)
         result+=f(x[i])*w[i]
     end
-    result
+    return result
 end
 
 function gausslegendreint128(f)
@@ -24,7 +24,8 @@ function gausslegendreint128(f)
     result=0.
     for i in eachindex(x)
         result+=f(x[i])*w[i]
-    result
+    end
+    return result
 end
 
 
