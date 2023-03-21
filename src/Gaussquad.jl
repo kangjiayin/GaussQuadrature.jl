@@ -3,6 +3,9 @@ using FastGaussQuadrature, LinearAlgebra
 export gausslegendreint
 # export gausschebyshevint
 export gausschebyshevint64
+export gausslegendreint8
+export gausslegendreint16
+export gausslegendreint32
 export gausslegendreint64
 export gausslegendreint128
 export gausslegendremesh
