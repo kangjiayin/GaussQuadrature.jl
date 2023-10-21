@@ -6,3 +6,6 @@ version = "0.1.0"
 [weakdeps]
 FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+[compat]
+FastGaussQuadrature = ">= 0.1.0"
+LinearAlgebra = ">= 0.1.0"
