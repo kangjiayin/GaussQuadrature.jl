@@ -33,7 +33,7 @@ function gausslegendremesh(minLimit::Real,maxLimit::Real,step::Int,n::Int)
         x=k2 .+(k1 .*x)
         w .*= k1
     elseif n == 2 # log取点
-        if mi n < 0
+        if minLimit < 0
             error("mesh domain must be positive when using this method")
         end
         minLimit=sqrt(minLimit)
